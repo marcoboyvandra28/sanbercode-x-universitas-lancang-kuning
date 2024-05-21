@@ -18,7 +18,7 @@ price int not null,
 
  Soal No 3
  insert into users(name, email, password) VALUES 
- ("M BAGUS", "bagoes9776@gmail.com", "bgs260103"), 
+ ("Marco Boy Vandra", "marcoboyvandra28@gmail.com", "marco123"), 
  ("Jane Doe", "jane@doe.com", "jenital123");
 
  INSERT INTO categories (name) VALUES ("gadget"), ("cloth"), ("men"), ("women"), ("branded");
