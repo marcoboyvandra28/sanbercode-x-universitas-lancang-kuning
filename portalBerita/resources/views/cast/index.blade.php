@@ -12,6 +12,7 @@
       <th scope="col">#</th>
       <th scope="col">Name</th>
       <th scope="col">Umur</th>
+      <th scope="col">Bio</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -21,6 +22,7 @@
       <th scope="row">{{$key + 1}}</th>
       <td>{{$item->nama}}</td>
       <td>{{$item->umur}}</td>
+      <td>{{$item->bio}}</td>
       <td>
         <form action="/cast/{{$item->id}}" method="POST">
                 @csrf
